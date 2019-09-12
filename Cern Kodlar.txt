@@ -1,8 +1,7 @@
 ![d3a9b22e31d07e382dd8580b3969bfb9.jpg](attachment:d3a9b22e31d07e382dd8580b3969bfb9.jpg)
 
                                                                                                                                     
-                                                                                                                                    
-                                                                                                                                            "Atomlardan ve boşluktan başka bir şey yoktur; geri kalan her şey düşüncelerdir." M.Ö. 460 - M.Ö. 370
+                                                                                                                                                                          "Atomlardan ve bosluktan baska bir sey yoktur; geri kalan her sey dÃ¼sÃ¼ncelerdir." M.Ã–. 460 - M.Ã–. 370
                                                                                                                                                                  
 from ipyleaflet import (Map,DrawControl)
 CernMap=Map(center=[46.2505,-6.0909], zoom=10)
@@ -35,8 +34,8 @@ CernMap
                  
                  
                  
-                 "Her bir milyar antimadde parçacığına karşılık bir milyar bir tane madde parçacığı vardı.
-       Ve birbirlerini yok ettiklerinde geriye milyarda birlik farkla madde kaldı. İşte, o da şu anki Evren'imizdir."
+                 "Her bir milyar antimadde parÃ§acÄ±ÄŸÄ±na karÅŸÄ±lÄ±k bir milyar bir tane madde parÃ§acÄ±ÄŸÄ± vardÄ±.
+       Ve birbirlerini yok ettiklerinde geriye milyarda birlik farkla madde kaldÄ±. Ä°ÅŸte, o da ÅŸu anki Evren'imizdir."
                                        
                                        
                                                  ALBERT EINSTEIN  
@@ -54,35 +53,35 @@ CernMap
 
 
 
-• 5.25×1032 eV: 20 kilotonluk bir nükleer fisyon da açığa çıkan enerji miktarı
+â€¢ 5.25Ã—1032 eV: 20 kilotonluk bir nÃ¼kleer fisyon da aÃ§Ä±ÄŸa Ã§Ä±kan enerji miktarÄ±
 
-• 624EeV: (6,24x1020) 100-watt'lık bir ampulun saniyede harcadığı enerji miktarı
+â€¢ 624EeV: (6,24x1020) 100-watt'lÄ±k bir ampulun saniyede harcadÄ±ÄŸÄ± enerji miktarÄ±
 
-• 300EeV: Tanrı Parçacığının enerjisi
+â€¢ 300EeV: TanrÄ± ParÃ§acÄ±ÄŸÄ±nÄ±n enerjisi
 
-• 1PeV: Antartikadaki IceCube nötrino teleskobundan iki farklı nötrinodan ölçülen enerji değeri
+â€¢ 1PeV: Antartikadaki IceCube nÃ¶trino teleskobundan iki farklÄ± nÃ¶trinodan Ã¶lÃ§Ã¼len enerji deÄŸeri
 
-• 14TeV: büyük hadron çarpıştırıcısının dizayn edilmiş proton çarpıştırma enerjisi.
+â€¢ 14TeV: bÃ¼yÃ¼k hadron Ã§arpÄ±ÅŸtÄ±rÄ±cÄ±sÄ±nÄ±n dizayn edilmiÅŸ proton Ã§arpÄ±ÅŸtÄ±rma enerjisi.
 
-• 1TeV: uçan bir sivri sineğin kinetik enerjsi
+â€¢ 1TeV: uÃ§an bir sivri sineÄŸin kinetik enerjsi
 
-• 125,3 ± 0,6 GeV: Higgs Bozon'unun yaydığı enerji miktarı. LHC'de iki farklı sensör tarafından 5sigma kesinlikle test edilmiştir.
+â€¢ 125,3 Â± 0,6 GeV: Higgs Bozon'unun yaydÄ±ÄŸÄ± enerji miktarÄ±. LHC'de iki farklÄ± sensÃ¶r tarafÄ±ndan 5sigma kesinlikle test edilmiÅŸtir.
 
-• 210 MeV: Pu-239 atomunun fisyonundan açığa çıkan ortalama enerji miktarıdır.
+â€¢ 210 MeV: Pu-239 atomunun fisyonundan aÃ§Ä±ÄŸa Ã§Ä±kan ortalama enerji miktarÄ±dÄ±r.
 
-• 200MeV: U-235 atomunun fisyonundan açığa çıkan ortalama enerji miktarıdır.
+â€¢ 200MeV: U-235 atomunun fisyonundan aÃ§Ä±ÄŸa Ã§Ä±kan ortalama enerji miktarÄ±dÄ±r.
 
-• 17,6 MeV: Döteryum ve Trityumun He-4 'ün füzyonu oluşumu esnasında açığa çıkan enerji miktarıdır. Bu enerji kilogram başına 0,41PJ 'dir.
+â€¢ 17,6 MeV: DÃ¶teryum ve Trityumun He-4 'Ã¼n fÃ¼zyonu oluÅŸumu esnasÄ±nda aÃ§Ä±ÄŸa Ã§Ä±kan enerji miktarÄ±dÄ±r. Bu enerji kilogram baÅŸÄ±na 0,41PJ 'dir.
 
-• 1 MeV: Bir elektronun hareketsizken sahip olduğu enerjinin 2 katıdır.
+â€¢ 1 MeV: Bir elektronun hareketsizken sahip olduÄŸu enerjinin 2 katÄ±dÄ±r.
 
-• 13,6 eV: Hidrojen atomunu iyonize edebilmek için gerekli olan enerji miktarıdır.
+â€¢ 13,6 eV: Hidrojen atomunu iyonize edebilmek iÃ§in gerekli olan enerji miktarÄ±dÄ±r.
 
-• 1,6 eV 'den 3,4 eV 'ye: Görünür ışığın foton enerjisidir.
+â€¢ 1,6 eV 'den 3,4 eV 'ye: GÃ¶rÃ¼nÃ¼r Ä±ÅŸÄ±ÄŸÄ±n foton enerjisidir.
 
-• 25meV: Oda sıcaklığındaki termal enerjinin miktarıdır (kBT). Bir hava molekülü ortalama 38 meV: kinetik enerjiye sahiptir.
+â€¢ 25meV: Oda sÄ±caklÄ±ÄŸÄ±ndaki termal enerjinin miktarÄ±dÄ±r (kBT). Bir hava molekÃ¼lÃ¼ ortalama 38 meV: kinetik enerjiye sahiptir.
 
-• 230 µeV: Kozmik arka plan mikrodalga ışımasının termal enerjisidir (kBT)          
+â€¢ 230 ÂµeV: Kozmik arka plan mikrodalga Ä±ÅŸÄ±masÄ±nÄ±n termal enerjisidir (kBT)          
 
 
 
@@ -138,7 +137,7 @@ Image(url='https://media.giphy.com/media/UQpVozKNDqWeQ/giphy.gif')
 from IPython.display import HTML
 
 # Youtube
-HTML('<iframe width="560" height="315" src="https://www.youtube.com/embed/nuJnJqq9LXM?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>')                                                                                   DEMOCRITOS
+HTML('<iframe width="560" height="315" src="https://www.youtube.com/embed/nuJnJqq9LXM?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>')                                                                                   
 
 
 
@@ -271,8 +270,8 @@ HTML('<iframe width="560" height="315" src="https://www.youtube.com/embed/RDdPuL
 ![DkD5Jw3UcAAOt9w.jpg](attachment:DkD5Jw3UcAAOt9w.jpg)
 
 
-              "Bilimde birileri daha önce kimsenin bilmediği bir şeyi herkesin anlayacağı bir şekilde söylemeye çalışır.
-                                              Şiirde de bunun tam tersi yapılır." 
+              "Bilimde birileri daha Ã¶nce kimsenin bilmediÄŸi bir ÅŸeyi herkesin anlayacaÄŸÄ± bir ÅŸekilde sÃ¶ylemeye Ã§alÄ±ÅŸÄ±r.
+                                              Åiirde de bunun tam tersi yapÄ±lÄ±r." 
                                               
                                                         PAUL DIRAC
                                                     MOZART OF SCIENCE
@@ -286,7 +285,7 @@ HTML('<iframe width="560" height="315" src="https://www.youtube.com/embed/RDdPuL
 
 
 
-                                                    TEŞEKKÜRLER !
+                                                    TEÅEKKÃœRLER !
                                                      THANK YOU !
                                                      
                                                      
@@ -307,4 +306,4 @@ HTML('<iframe width="560" height="315" src="https://www.youtube.com/embed/RDdPuL
                                                      
                                                      
                                                      
-                                                   Mehmet Cem ATEŞ
+                                                   Mehmet Cem ATEÅ
