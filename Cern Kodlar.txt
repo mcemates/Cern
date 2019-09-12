@@ -1,7 +1,9 @@
 ![d3a9b22e31d07e382dd8580b3969bfb9.jpg](attachment:d3a9b22e31d07e382dd8580b3969bfb9.jpg)
 
+"Atomlardan ve bosluktan baska bir sey yoktur; geri kalan her sey düsüncelerdir." M.Ö. 460 - M.Ö. 370
+
                                                                                                                                     
-                                                                                                                                                                          "Atomlardan ve bosluktan baska bir sey yoktur; geri kalan her sey düsüncelerdir." M.Ö. 460 - M.Ö. 370
+                                                            
                                                                                                                                                                  
 from ipyleaflet import (Map,DrawControl)
 CernMap=Map(center=[46.2505,-6.0909], zoom=10)
