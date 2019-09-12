@@ -1,0 +1,310 @@
+![d3a9b22e31d07e382dd8580b3969bfb9.jpg](attachment:d3a9b22e31d07e382dd8580b3969bfb9.jpg)
+
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                            "Atomlardan ve boþluktan baþka bir þey yoktur; geri kalan her þey düþüncelerdir." M.Ö. 460 - M.Ö. 370
+                                                                                                                                                                 
+from ipyleaflet import (Map,DrawControl)
+CernMap=Map(center=[46.2505,-6.0909], zoom=10)
+dc=DrawControl(circle={'shapeOptions':{'color':'#0000FF'}},rectangle={'shapeOptions':{'color':'#0000FF'}})
+CernMap.add_control(dc)
+CernMap
+
+
+
+
+
+%%html
+<iframe class="timeline" scrolling="auto" height="850" width="100%" frameborder="0" src="https://timeline.web.cern.ch/timeline-header/89/export"></iframe>   
+
+
+
+
+
+
+
+
+
+![einstain.jpg](attachment:einstain.jpg)
+  
+  
+ 
+                 
+                 
+                 
+                 
+                 
+                 
+                 "Her bir milyar antimadde parçacýðýna karþýlýk bir milyar bir tane madde parçacýðý vardý.
+       Ve birbirlerini yok ettiklerinde geriye milyarda birlik farkla madde kaldý. Ýþte, o da þu anki Evren'imizdir."
+                                       
+                                       
+                                                 ALBERT EINSTEIN  
+
+
+
+
+
+\begin{equation*}
+\rho=1GeV/c= \frac{(1x10^9).(1.60217646x10^-19C)}{(2.99792458x10^8m/s)}=5.344286x10^-19kg.m/s\end{equation*}
+                                                                      
+
+
+
+
+
+
+• 5.25×1032 eV: 20 kilotonluk bir nükleer fisyon da açýða çýkan enerji miktarý
+
+• 624EeV: (6,24x1020) 100-watt'lýk bir ampulun saniyede harcadýðý enerji miktarý
+
+• 300EeV: Tanrý Parçacýðýnýn enerjisi
+
+• 1PeV: Antartikadaki IceCube nötrino teleskobundan iki farklý nötrinodan ölçülen enerji deðeri
+
+• 14TeV: büyük hadron çarpýþtýrýcýsýnýn dizayn edilmiþ proton çarpýþtýrma enerjisi.
+
+• 1TeV: uçan bir sivri sineðin kinetik enerjsi
+
+• 125,3 ± 0,6 GeV: Higgs Bozon'unun yaydýðý enerji miktarý. LHC'de iki farklý sensör tarafýndan 5sigma kesinlikle test edilmiþtir.
+
+• 210 MeV: Pu-239 atomunun fisyonundan açýða çýkan ortalama enerji miktarýdýr.
+
+• 200MeV: U-235 atomunun fisyonundan açýða çýkan ortalama enerji miktarýdýr.
+
+• 17,6 MeV: Döteryum ve Trityumun He-4 'ün füzyonu oluþumu esnasýnda açýða çýkan enerji miktarýdýr. Bu enerji kilogram baþýna 0,41PJ 'dir.
+
+• 1 MeV: Bir elektronun hareketsizken sahip olduðu enerjinin 2 katýdýr.
+
+• 13,6 eV: Hidrojen atomunu iyonize edebilmek için gerekli olan enerji miktarýdýr.
+
+• 1,6 eV 'den 3,4 eV 'ye: Görünür ýþýðýn foton enerjisidir.
+
+• 25meV: Oda sýcaklýðýndaki termal enerjinin miktarýdýr (kBT). Bir hava molekülü ortalama 38 meV: kinetik enerjiye sahiptir.
+
+• 230 µeV: Kozmik arka plan mikrodalga ýþýmasýnýn termal enerjisidir (kBT)          
+
+
+
+
+
+
+
+
+![CERN-20060225-24.jpg](attachment:CERN-20060225-24.jpg)
+                                              GARGAMELLE     
+
+
+
+
+
+
+
+
+
+
+from IPython.display import Image
+Image(url='https://media.giphy.com/media/UQpVozKNDqWeQ/giphy.gif')   
+
+
+
+
+
+
+
+
+
+![siklotron-1.jpg](attachment:siklotron-1.jpg)    
+
+
+
+
+
+
+
+
+
+
+![800px-Cern-accelerator-complex.svg.png](attachment:800px-Cern-accelerator-complex.svg.png)
+
+
+
+
+
+
+
+
+
+from IPython.display import HTML
+
+# Youtube
+HTML('<iframe width="560" height="315" src="https://www.youtube.com/embed/nuJnJqq9LXM?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>')                                                                                   DEMOCRITOS
+
+
+
+
+
+
+
+
+
+
+
+
+from IPython.display import HTML
+
+# Youtube
+HTML('<iframe width="560" height="315" src="https://www.youtube.com/embed/pQhbhpU9Wrg?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>')
+
+
+
+
+
+
+
+
+
+
+
+![3D-dipole.jpg](attachment:3D-dipole.jpg)
+
+
+
+
+
+
+
+
+
+![0511013-atlas-hr.jpg](attachment:0511013-atlas-hr.jpg)
+
+
+
+
+
+
+
+
+
+
+
+
+%matplotlib inline
+import matplotlib.pyplot as plt
+import numpy as np
+import pandas as pd
+import seaborn as sns
+
+sns.set()
+r = np.linspace(0, 10, num=100)
+df = pd.DataFrame({'r': r, 'CMS': r, 'ALICE': 2 * r, 'ATLAS': 4 * r})
+df = pd.melt(df, id_vars=['r'], var_name='Sensor', value_name='Example')
+g = sns.FacetGrid(df, col="Sensor", hue="Sensor",
+                  subplot_kws=dict(projection='polar'), size=4.5,
+                  sharex=False, sharey=False, despine=False)
+g.map(plt.scatter, "Example", "r")
+
+
+
+
+
+
+
+
+
+
+
+from IPython.display import Image
+Image(url='http://cylindricalonion.web.cern.ch/sites/cylindricalonion.web.cern.ch/files/users/achintya/particles_bending.gif')
+
+
+
+
+
+
+
+
+from IPython.display import HTML
+
+# Youtube
+HTML('<iframe width="560" height="315" src="https://www.youtube.com/embed/RDdPuL-uOQc?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>')
+
+
+
+
+
+
+
+
+from IPython.display import HTML
+
+# Youtube
+HTML('<iframe width="560" height="315" src="https://www.youtube.com/embed/RDdPuL-uOQc?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>')
+
+
+
+
+
+
+
+
+
+![the+expansion+of+the+universe+dating+back+to+the+big+bang.jpg](attachment:the+expansion+of+the+universe+dating+back+to+the+big+bang.jpg)
+
+
+
+
+
+
+
+
+
+![2%20%281%29.png](attachment:2%20%281%29.png)
+
+
+
+
+
+
+
+
+![DkD5Jw3UcAAOt9w.jpg](attachment:DkD5Jw3UcAAOt9w.jpg)
+
+
+              "Bilimde birileri daha önce kimsenin bilmediði bir þeyi herkesin anlayacaðý bir þekilde söylemeye çalýþýr.
+                                              Þiirde de bunun tam tersi yapýlýr." 
+                                              
+                                                        PAUL DIRAC
+                                                    MOZART OF SCIENCE
+
+
+
+
+
+
+
+
+
+
+                                                    TEÞEKKÜRLER !
+                                                     THANK YOU !
+                                                     
+                                                     
+                                                     
+                                                     
+                                                     
+                                                     
+                                                     
+   ![5c74e27bc03c0e35008152dc.jpg](attachment:5c74e27bc03c0e35008152dc.jpg)
+                                                     
+                                                     
+                                                     
+                                                     
+                                                     
+                                                     
+                                                     
+                                                     
+                                                     
+                                                     
+                                                     
+                                                   Mehmet Cem ATEÞ
